@@ -1,0 +1,24 @@
+div {
+    width: 5rem;
+    height: 5rem;
+    border: 5px solid;
+  }
+
+  .one{
+    background-color: var(--not-set, #000);
+  }
+
+  .two {
+    background-color: var(--not-set, var(--also-not-set, #00F));
+  }
+  
+  .three {
+    background-color: #F00;
+    background-color: blahaha;
+  }
+
+  
+.four {
+    background-color: #F00;
+    background-color: var(--not-set);
+  }
